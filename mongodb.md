@@ -61,8 +61,54 @@ db.createUser({
 
 ## db.customers.update({first_name : "Nisan"},{$rename : {"gender" : "sex"}})
 
->> $rename is use for rename row or key name
+> $rename is use for rename row or key name
 
 ## db.customers.remove({first_name : "Nisan"})
 
->> remove is use delete row
+> remove is use delete row
+
+## db.customers.remove({first_name : "Nisan"},{jsutOne : true})
+
+> Delete first One find not all
+
+## db.customers.find({first_name : "Imran"}).pretty();
+
+> find first_name is Imran
+
+## db.customers.find({$or: [ {first_name : "Imran"}, {first_name : "Jisan"} ]})
+
+> find Imran name and Jisan what is avaliable.
+
+## db.customers.find({age: {$lt : 40}}).pretty();
+
+> less then 40 age all show
+
+## db.customers.find({"address.city": "Barisal"})
+
+> It will find address nesder city Barisal :) 
+
+## db.customers.find().sort({last_name : 1})
+
+> it will assending data A-Z
+
+## db.customers.find().sort({last_name : 1})
+
+> it will reversr A-Z view(Z-A)
+
+## db.customers.find().count()
+
+> total row..
+
+## db.customers.find({age : 29}).count()
+
+> age row available row total
+
+## db.customers.find().limit(3)
+
+> first 3 row show
+
+## db.customers.find().limit(2).sort({last_name:1})
+
+> last name sort first 2
+
+## db.customers.find().forEach(function(doc){ print("Customer Name : " + dec.first_name)})
