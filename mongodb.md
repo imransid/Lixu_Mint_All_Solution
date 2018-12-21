@@ -111,4 +111,4 @@ db.createUser({
 
 > last name sort first 2
 
-## db.customers.find().forEach(function(doc){ print("Customer Name : " + dec.first_name)})
+## db.customers.find().forEach(function(doc){ print("Customer Name : " + dec.first_name)});
