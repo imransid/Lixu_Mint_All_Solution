@@ -13,3 +13,7 @@
 ## VSCode RUN Root Mode:
 
 >sudo code --user-data-dir="~/.vscode-root"
+
+## Install Desktop GitHub :
+
+https://github.com/shiftkey/desktop/releases/
