@@ -17,3 +17,9 @@
 ## Install Desktop GitHub :
 
 https://github.com/shiftkey/desktop/releases/
+
+
+
+##Delete Drawable Folder :D
+
+sudo rm -r drawable-xhdpi/ drawable-hdpi/ drawable-xxhdpi/ drawable-mdpi/ drawable-xxxhdpi/
