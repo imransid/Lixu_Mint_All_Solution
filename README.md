@@ -20,6 +20,13 @@ https://github.com/shiftkey/desktop/releases/
 
 
 
-##Delete Drawable Folder :D
+## Delete Drawable Folder React Native :D
 
 sudo rm -r drawable-xhdpi/ drawable-hdpi/ drawable-xxhdpi/ drawable-mdpi/ drawable-xxxhdpi/
+
+
+## sudo ./gradlew clean
+
+## sudo ./gradlew assembleRelease
+
+## sudo ./gradlew bundleRelease
