@@ -41,7 +41,46 @@ db.createUser({
 
 ## db.name.insert({})
 
-> To insert vale collection
+> To insert single collection
+
+## db.name.insertMany() 
+
+> You can insert multiple documents using the insertMany() method. To this method you need to pass an array of documents.
+ example : 
+ db.empDetails.insertMany(
+	[
+		{
+			First_Name: "Radhika",
+			Last_Name: "Sharma",
+			Date_Of_Birth: "1995-09-26",
+			e_mail: "radhika_sharma.123@gmail.com",
+			phone: "9000012345"
+		},
+		{
+			First_Name: "Rachel",
+			Last_Name: "Christopher",
+			Date_Of_Birth: "1990-02-16",
+			e_mail: "Rachel_Christopher.123@gmail.com",
+			phone: "9000054321"
+		},
+		{
+			First_Name: "Fathima",
+			Last_Name: "Sheik",
+			Date_Of_Birth: "1990-02-16",
+			e_mail: "Fathima_Sheik.123@gmail.com",
+			phone: "9000054321"
+		}
+	]
+)
+{
+	"acknowledged" : true,
+	"insertedIds" : [
+		ObjectId("5dd631f270fb13eec3963bed"),
+		ObjectId("5dd631f270fb13eec3963bee"),
+		ObjectId("5dd631f270fb13eec3963bef")
+	]
+}
+
 
 ## db.customers.find()
 
