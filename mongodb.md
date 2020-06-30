@@ -1,11 +1,13 @@
 # MongoDB
 
 
-$ sudo systemctl status mongodb
-$ sudo systemctl stop mongodb
-$ sudo systemctl start mongodb
-$ sudo systemctl restart mongodb
+### $ sudo systemctl status mongodb
+### $ sudo systemctl stop mongodb
+### $ sudo systemctl start mongodb
+### $ sudo systemctl restart mongodb
 
+## Open Mongo shell
+### $ mongo
 
 ## cls
 
