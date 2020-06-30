@@ -1,6 +1,12 @@
 # MongoDB
 
 
+$ sudo systemctl status mongodb
+$ sudo systemctl stop mongodb
+$ sudo systemctl start mongodb
+$ sudo systemctl restart mongodb
+
+
 ## cls
 
 > cls is used for clear all screen
