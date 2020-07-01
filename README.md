@@ -18,6 +18,10 @@
 
 https://github.com/shiftkey/desktop/releases/
 
+## To Fix SSH port 22 ( Port Number Change )
+
+> https://www.cyberciti.biz/faq/howto-change-ssh-port-on-linux-or-unix-server/
+
 
 
 ## Delete Drawable Folder React Native :D
